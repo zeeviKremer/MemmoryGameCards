@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משחק הזיכרון</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">    
+    <link rel="icon" type="image/png" href="/images/icon.png">
+</head>
+<body>
+    <br />
+    <center>
+        <div class="containr" id="q" style="width:750px;">
+            <center id="center">
+                <div id="w">
+                    <div class="jumbotron" id="a" style="width:750px;">
+                        <center>
+                            <marquee id="a" direction="right" scrolldelay="20" scrollamount="20">
+                                <h6 style="height:4px;width:1000px;background-color:#47eafa;"></h6>
+                            </marquee>
+                            <h1 class="t">משחק זיכרון</h1><br />
+                            <marquee id="b" direction="left" scrolldelay="20" scrollamount="20">
+                                <h6 style="height:4px;width:1000px;background-color:#47eafa;"></h6>
+                            </marquee>
+                        </center>
+                    </div>
+
+                    <div>
+                        <br /><br /><br />
+                        <select id="topic" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option value="0" disabled="disabled" selected="selected">בחר נושא</option>
+                            <option class="option" value="1">חטיפים</option>
+                            <option class="option" value="2">סמלי רכבים</option>
+                            <option class="option" value="3">פירות</option>
+                        </select>
+                        <br /><br />
+                        <h4 class="h">בחר רמת קושי</h4>
+                        <span class="h">קל</span><input type="radio" class="InputStyle" id="radio1" name="radio1" value="1" />
+                        <span class="h">בינוני</span><input type="radio" id="radio2" name="radio1" value="2" />
+                        <span class="h">קשה</span><input type="radio" id="radio3" name="radio1" value="3" />
+                        <br /><br /><br /><br /><br />
+                        <span class="h">סמארטפון</span><input type="radio" id="smart" value="1" />
+                        <br /><br />
+                        <input type="button" value="משחק חדש" class="myButton" onclick="Start(document.getElementById('topic') , document.getElementById('radio1') , document.getElementById('radio2') , document.getElementById('radio3') , document.getElementById('smart'))" />
+                    </div>
+                </div>
+            </center>
+        </div>
+    </center>
+    <div class="pics" >
+        <img src="images/sweets/ahShelBsli1.jpg" />
+        <img src="images/sweets/tortit.jpg" />
+        <img src="images/sweets/apropo.jpg" />
+        <img src="images/sweets/bamba.jpg" />
+        <img src="images/sweets/bambaAisSheik.jpg" />
+        <img src="images/sweets/bambaBis.jpg" />
+        <img src="images/sweets/bambaMetuca.jpg" />
+        <img src="images/sweets/bambaMix.jpg" />
+        <img src="images/sweets/beigale.jpg" />
+        <img src="images/sweets/bisliGril.jpg" />
+        <img src="images/sweets/cefli.jpg" />
+        <img src="images/sweets/chipsCranch.jpg" />
+        <img src="images/sweets/chitus.jpg" />
+        <img src="images/sweets/chitusCranch.jpg" />
+        <img src="images/sweets/clickCariuot.jpg" />
+        <img src="images/sweets/clikHumLavn.jpg" />
+        <img src="images/sweets/comix.jpg" />
+        <img src="images/sweets/dubonim.jpg" />
+        <img src="images/models/alfaRomeo.jpg" />
+        <img src="images/models/bmw.jpg" />
+        <img src="images/models/cadillac.jpg" />
+        <img src="images/models/chevrolet.jpg" />
+        <img src="images/models/dacia.jpg" />
+        <img src="images/models/dodge.jpg" />
+        <img src="images/models/hyundai.jpg" />
+        <img src="images/models/jeep.jpg" />
+        <img src="images/models/kia.jpg" />
+        <img src="images/models/lamborghini.jpg" />
+        <img src="images/models/maserati.jpg" />
+        <img src="images/models/mazda.jpg" />
+        <img src="images/models/mercedes.jpg" />
+        <img src="images/models/mitsubishi.jpg" />
+        <img src="images/models/nissan.jpg" />
+        <img src="images/models/opel.jpg" />
+        <img src="images/models/porsche.jpg" />
+        <img src="images/models/suzuki.jpg" />
+        <img src="images/fruits/apple.jpg" />
+        <img src="images/fruits/avocado.jpg" />
+        <img src="images/fruits/banana.jpg" />
+        <img src="images/fruits/cabbage.jpg" />
+        <img src="images/fruits/carrot.jpg" />
+        <img src="images/fruits/strawberrie.jpg" />
+        <img src="images/fruits/clementine.jpg" />
+        <img src="images/fruits/corn.jpg" />
+        <img src="images/fruits/grapefruit.jpg" />
+        <img src="images/fruits/grapes.jpg" />
+        <img src="images/fruits/kiwi.jpg" />
+        <img src="images/fruits/lemon.jpg" />
+        <img src="images/fruits/lettuce.jpg" />
+        <img src="images/fruits/olive.jpg" />
+        <img src="images/fruits/onion.jpg" />
+        <img src="images/fruits/orange.jpg" />
+        <img src="images/fruits/pear.jpg" />
+        <img src="images/fruits/pomegranate.jpg" />
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

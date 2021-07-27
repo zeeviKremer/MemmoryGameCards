@@ -1,0 +1,99 @@
+﻿body {
+    direction: rtl;
+    background-image: url(../images/l.jpg);
+    max-width:100%;
+    height:auto;
+}
+.btn {
+    text-align: center;
+    color: #2b58ef;
+    font-size: 30px;
+    width: 30%;
+    background: #54e6a0;
+    height: 60px;
+}
+    .btn:hover {
+        background-color: #4800ff;
+        color: #00ff21;
+        text-decoration: none;
+    }
+.t {
+    width: 500px;
+    height: 60px;
+    font-size: 80px;
+    text-align: center;
+    color: #085ddd ; 
+    font-family: Edwardian Script ITC;
+}
+.h {
+    width: 500px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    color:#0026ff;
+    font-family: Edwardian Script ITC;
+}
+#v {
+    width: 1300px;
+    height: 650px;
+}
+#BtnStartGeaim {
+    color: #f9fa18;
+    background-color: #085ddd;
+    width: 280px;
+    height: 60px;
+    font-size: 35px;
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+}
+
+#BtnStartGeaim:hover {
+    color: #a01df7;
+    background-color: #2fffc5;
+}
+
+.myButton {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background-color: #a01df7;    
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    width: 280px;
+    height: 60px;
+    cursor: pointer;
+    color: #2fffc5;
+    font-family: Arial;
+    font-size: 35px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+}
+
+    .myButton:hover {
+        color: #085ddd;
+        background-color: #f9fa18;
+    }
+
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
+#topic {
+    width: 250px;   
+    background-color: #87f7cf;
+    color: #2f74f6;
+}
+    #topic:hover {
+        background-color: #2fffc5;
+        color: #a01df7;
+    }
+Style {
+    width: 150px;
+    border-radius: 10px;
+    font-size: 30px;
+    height: 25px;
+    border: solid 1px #ddd8d8;
+    background-color: #ddd8d8;
+    color: #20bce5;
+}
+.pics {
+    visibility: hidden;
+}
